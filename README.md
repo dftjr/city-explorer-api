@@ -2,7 +2,7 @@
 
 **Author**: David Tusia
 
-**Version**: 1.0.
+**Version**: 1.0.2
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
@@ -22,6 +22,7 @@ This app is the API that will hold some of the temporary data that the backend o
 
 01-01-2021 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 8-24-2022 11:48pm - Application is now setup!
+8-25-2022 6:00am - Server API setup. Tests completed and working for "test" json file.
 
 
 ## Credit and Collaborations
@@ -30,7 +31,7 @@ This app is the API that will hold some of the temporary data that the backend o
 # Time Estimates
 For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 
-Name of feature: Lab 07 - Setup
+Name of feature: Lab 07 (checklist 01) - Setup
 
 Estimate of time needed to complete: 1 hour
 
@@ -42,12 +43,24 @@ Actual time needed to complete: 1 hour 15 min
 
 <br>
 
-Name of feature: Lab 07 - Displaying specific data (name, lat, lon)
+Name of feature: Lab 07 (checklist 02) - Displaying specific data (name, lat, lon)
 
-Estimate of time needed to complete: 2 hours
+Estimate of time needed to complete: 1 hour 30 min
 
-Start time: 12:00am
+Start time: 4:00am
+
+Finish time: 6:00am
+
+Actual time needed to complete: 2 hours
+
+<br>
+
+Name of feature: Lab 07 (checklist 03) - Revisiting errors
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 
 
 Finish time: 
 
-Actual time needed to complete: 
+Actual time needed to complete:
