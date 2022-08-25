@@ -21,7 +21,9 @@ This app is the API that will hold some of the temporary data that the backend o
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
 01-01-2021 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+
 8-24-2022 11:48pm - Application is now setup!
+
 8-25-2022 6:00am - Server API setup. Tests completed and working for "test" json file.
 
 
