@@ -6,7 +6,9 @@ console.log('Server starting');
 const express = require('express');
 const PORT = process.env.PORT || 3001;
 const app = express();
+const cors = require('cors');
 
+app.use(cors());
 
 require('dotenv').config();
 
@@ -17,12 +19,13 @@ app.get('/', (request, response) => {
 });
 
 app.get('/weather', (request, response) => {
+    console.log('hi')
         // let lat = request.query.lat;
         // let lon = request.query.lon;
+        console.log(request.query);
         let city_name = request.query.searchQuery;
-        let result = data.find(weather => weather.city_name === city_name);
-
-        if (response) {
+        let result = data.find(weather => weather.city_name.toLowerCase() === weather.city_name.toLowerCase());
+        if (!response) {
             throw 'Invalid city, please submit a valid entry!';
         }
         
