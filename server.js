@@ -24,7 +24,7 @@ app.get('/weather', (request, response) => {
         // let lon = request.query.lon;
         console.log(request.query);
         let city_name = request.query.searchQuery;
-        let result = data.find(weather => weather.city_name.toLowerCase() === weather.city_name.toLowerCase());
+        let result = data.find(weather => weather.city_name.toLowerCase() === city_name.toLowerCase());
         if (!response) {
             throw 'Invalid city, please submit a valid entry!';
         }
