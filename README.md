@@ -14,7 +14,7 @@ This app is the API that will hold the back-end server used to retrieve the API'
 
 **STEP 1:**
 Git copy the file to your local machine if testing locally, link is here: [Back-End Server](https://github.com/dftjr/city-explorer-api.git)
-(Heroku and Netlify are currently NOT working, please run code from localhost:3000
+(Heroku and Netlify are currently NOT working, please run code from localhost:3001
 
 **STEP 2:**
 Please have API keys ready in order to pull the informtion from the server. You can get the keys for free from the following links below:
